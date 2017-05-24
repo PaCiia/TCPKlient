@@ -61,6 +61,7 @@
             this.polacz.TabIndex = 3;
             this.polacz.Text = "Połącz";
             this.polacz.UseVisualStyleBackColor = true;
+            this.polacz.Click += new System.EventHandler(this.polacz_Click);
             // 
             // my_port
             // 
